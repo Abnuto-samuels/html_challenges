@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+        margin-left: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+
+    <form class="" action="index.html" method="post">
+      <table>
+        <tr>
+          <td>User id:</td>
+          <td><input type="" name="" value="" pattern=".{5,12}" required title="Required and must be of length 5 to 12" placeholder="Required and must be of length 5 to 12" required></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="" value="" pattern=".{7,12}" required title="Required and must be of length 7 to 12" placeholder="Required and must be of length 7 to 12" required></td>
+        </tr>
+        <tr>
+          <td>Name:</td>
+          <td><input type="Name" name="" value="" pattern=".{1,12}" required title="Required and alphabates only"
+            placeholder="Required and alphabates only" required></td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><input type="text" name="" value="" placeholder="Optional" required></td>
+        </tr>
+        <tr>
+          <td>Country:</td>
+          <td><p>
+          <select id="pickup_place" name="pickup_place">
+          <option value="" selected="selected">Select One</option>
+          <option value="office" >South Africa</option>
+          <option value="town_hall" >England</option>
+          <option value="telepathy" >Germany</option>
+          </select>
+          </p></td>
+        </tr>
+        <tr>
+          <td>ZIP Code:</td>
+          <td><input type="number" name="" value="" pattern=".{0}|.{1,5}" required title="Must be numeric only" placeholder="Required. Must be numeric only."></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="" value="" placeholder="Required. Must be a valid email."></td>
+        </tr>
+        <tr>
+          <td>Sex:</td>
+          <td><input type="radio" name="g" value="">Male<input type="radio" name="g" value="">Female</td>
+        </tr>
+        <tr>
+          <td>Language:</td>
+          <td><input type="checkbox" name="a" value="" required>English  <input type="checkbox" name="a" value="">Non English</td>
+        </tr>
+        <tr>
+          <td>About:</td>
+          <td><textarea name="name" rows="8" cols="80"></textarea></p>
+        </tr>
+        <tr>
+          <td><input type="submit" name="" value="Submit"></td>
+        </tr>
+      </table>
+    </form>
+
+
+  </body>
+</html>
